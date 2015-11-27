@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.caoyu.broadcastbestpractice.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp" >
+
+        <TextView
+            android:id="@+id/id_textview_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ID" 
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />"
+
+        <EditText
+            android:id="@+id/id_edittext_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="please enter your ID" />
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"  >
+
+        <TextView
+            android:id="@+id/id_textview_passwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="passwd" 
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/id_edittext_passwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="your password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/id_btn_login"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="login" />
+
+        <Button
+            android:id="@+id/id_btn_register"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            android:text="register" />
+
+    </LinearLayout>
+
+</LinearLayout>
